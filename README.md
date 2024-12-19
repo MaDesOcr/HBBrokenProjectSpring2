@@ -6,7 +6,7 @@
 <img alt="Static Badge" src="https://img.shields.io/badge/Swagger-8df14f">
 </div>
 
-For this project, I worked as a back-end developer for ChâTop, a company that rents out properties in tourist areas.
+For this project, I worked as a back-end developer for a company that rents out properties in tourist areas.
 The project took the form of a portal to connect prospective tenants and owners for seasonal rentals, initially on the Basque coast and later throughout France.
 There was already a fairly basic Angular application running on data mocked up using Mockoon.
 My job was to implement the backend. I had the Mockoon environment, a Postman collection to test the API and a database schema.
@@ -64,11 +64,6 @@ To initialize the database :
   );`
 
 Don't forget to check the 'application.properties' file to define the correct user.
-
-To launch the project locally (Front – https://github.com/OpenClassrooms-Student-Center/Developpez-le-back-end-en-utilisant-Java-et-Spring) : 
-- `npm install`
-- `npm run start`
-
 To launch the project locally (Back) : 
 - `mvn install`
 - `mvn exec:java -D exec.mainClass="com.openclassrooms.chatop.OcChaTopApplication"`
